@@ -3,7 +3,7 @@
 base=/usr/local/src
 echo ###Install EnviroMment###
 yum -y install epel-release
-yum -y install pcre-devel openssl-devel libxslt-devel libxml2-devel gd-devel lua-devel GeoIP-devel libjemalloc-devel http-tools jemalloc-devel git
+yum -y install pcre-devel wget openssl-devel gcc make libxslt-devel libxml2-devel gd-devel lua-devel GeoIP-devel libjemalloc-devel http-tools jemalloc-devel git tar
 cd $base
 echo ##Install Openssl##
 wget https://www.openssl.org/source/old/1.1.0/openssl-1.1.0l.tar.gz
